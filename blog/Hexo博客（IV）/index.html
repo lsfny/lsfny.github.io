@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Personal blog">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="lsfny">
+    
+    <title>
+        
+            Hexo博客（IV） |
+        
+        lsfny&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-logo.png">
+    
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-keep@4.1.3/source/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-keep@4.1.3/source/font/css/regular.min.css">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-keep@4.1.3/source/font/css/solid.min.css">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-keep@4.1.3/source/font/css/brands.min.css">
+    
+        
+            
+        
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"lsfny.github.io","root":"/","language":"zh-CN","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#CC99CC","title":"lsfny's blog","author":"lsfny","avatar":"https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-avatar.jpg","logo":"https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-logo.png","favicon":"https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-logo.png"},"menu":{"home":"/                       || fa-solid fa-home","archives":"/archives           || fa-solid fa-box-archive","tags":"/tags"},"first_screen":{"enable":true,"background_img":"https://cdn.jsdelivr.net/gh/lsfny/images/PicGobg-sky.jpg","background_img_dark":"https://cdn.jsdelivr.net/gh/lsfny/images/PicGobg-sky-dark.jpg","description":"桔梗花代表的是一种感情,不弃的感情，于是开始有人把桔梗送情人也送给永不再见的人，因为它是永恒，也是无望。","hitokoto":false},"social_contact":{"enable":true,"links":{"github":"https://github.com/lsfny","weixin":null,"qq":"img | https://cdn.jsdelivr.net/gh/lsfny/images/PicGo202406151847101.png","weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"created","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":["斗皇强者"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"lVkX9tbYT33AmGss4JR38m8Y-MdYXbMMI","appkey":"gkDQ8OllDyjXQ2qpYqGtTtCO","server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":true},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"unpkg"},"pjax":{"enable":true},"footer":{"since":2024,"word_count":true,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":true,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.3"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="lsfny's Blog" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-logo.png">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               lsfny&#39;s blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                
+                                    <i class="menu-icon fa-solid fa-home"></i>
+                                
+                                首页
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                
+                                    <i class="menu-icon fa-solid fa-box-archive"></i>
+                                
+                                归档
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                
+                                标签
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/"
+                    >首页</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >归档</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags"
+                    >标签</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        Hexo博客（IV）
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="https://cdn.jsdelivr.net/gh/lsfny/images/PicGoblog-avatar.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">lsfny</span>
+                                
+                                    <span class="author-badge">斗皇强者</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-06-15</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Thu Jul 04 2024 01:40:22 GMT+0000">2024-07-04</span>
+            </span>
+        
+
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E5%9B%BE%E5%BA%8A/">图床</a></li>
+                        
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/Obsidian/">Obsidian</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>1.6k 字</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>5 分钟</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    <h1 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h1><p>才创建博客就出现问题，插入模板有问题，title 和 date 都没显示，昨天明明还可以。可能是 VSCode 自动修改了啥，使用 <code>&#123;&#123;title&#125;&#125;</code> 就可以直接使用变量而不是单纯的 title 字符了。</p>
+<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>找到一个博客，刚好还把博客的源码发出来了，连设置这些都有，可能发现问题了，后面的就没有了，主题应该也是 keep ，发现他们的  <code>&lt;!-- more--&gt;</code> 语法可以用，为什么啊，是我版本太高不适配了吗。去试了一下，现在又可以了。</p>
+<p>发现他们其他使用 Hexo 的头像和 logo 都是使用的仓库下 image 目录中的图片，为啥我之前用的时候不显示呢。</p>
+<p>他们的博客果然好啊，尤其是开放源码，让我知道怎么使用 page ，直接使用 <code>hexo new page tag</code> ，里面什么都不需要写，然后在 <code>_keep.yml</code> 文件中将 tags 就可以。</p>
+<p>必须将帮助我的<a class="link"   target="_blank" rel="noopener" href="https://dionysen.github.io/" >博客<i class="fas fa-external-link-alt"></i></a>的地址写下来，至于以后会不会把博客的源码仓库删掉就不知道了。</p>
+<p>还有就是他的文字，不是像默认的那样一个一个弹出来的，应该是使用 inject 注入的吧，指南里是这么写的。</p>
+<p>把背景图片首屏的背景图片改了，感谢<a href="pixabay.com">网站</a>，选择图片之后还能在线编辑，调成适合夜间模式的图片。</p>
+<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>Git设置全局http代理和https代理</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy 127.0.0.1:7890</span><br><span class="line">git config --global https.proxy 127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+<p>取消这两个全局代理</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+
+<p>之前看到的<a class="link"   target="_blank" rel="noopener" href="https://weilining.github.io/294.html?highlight=%E7%BB%88%E7%AB%AF" >文章<i class="fas fa-external-link-alt"></i></a>有更简单的方法，编辑一个终端文件，例如 <code>.zsh_profile</code> ，编辑代码</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">function proxy_on() &#123;</span><br><span class="line">    export http_proxy=http://127.0.0.1:7890</span><br><span class="line">    export https_proxy=\$http_proxy</span><br><span class="line">    git config --global http.proxy 127.0.0.1:7890</span><br><span class="line">    git config --global https.proxy 127.0.0.1:7890</span><br><span class="line">    echo -e &quot;终端代理已开启。&quot;</span><br><span class="line">    echo -e &quot;git代理已开启。&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function proxy_off()&#123;</span><br><span class="line">    unset http_proxy https_proxy</span><br><span class="line">    git config --global --unset http.proxy</span><br><span class="line">    git config --global --unset https.proxy</span><br><span class="line">    echo -e &quot;终端代理已关闭。&quot;</span><br><span class="line">    echo -e &quot;git代理已关闭。&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>接着使用 <code>source .zsh_profile</code> ,然后 <code>proxy_on</code> 就可以开启代理了。测试使用 <code>curl -I http://www.google.com</code> 结果为 <code>HTTP/1.1 200 OK</code> 就是成功的。亲测对当时有效，关闭或者切换终端之后就没用了，所以也不用担心产生多余垃圾，不过 git 的代理设置是才加上去的，还没测试过。</p>
+<h1 id="picgo"><a href="#picgo" class="headerlink" title="picgo"></a>picgo</h1><p>看了个文章，说WebP格式效果好，然后又心动了，可是那个 <code>compress</code> 插件就是安不上，最后找到了 issue 里的方法解决了。</p>
+<blockquote>
+<p>我试了好久，最终 先删掉了picgo&#x2F;node_modules里面的所有内容， 开了全局代理后，用yarn官方的源，设置了代理</p>
+<p>yarn config set proxy <a class="link"   target="_blank" rel="noopener" href="http://127.0.0.1:1081/" >http://127.0.0.1:1081<i class="fas fa-external-link-alt"></i></a><br>yarn config set https-proxy <a class="link"   target="_blank" rel="noopener" href="http://127.0.0.1:1081/" >http://127.0.0.1:1081<i class="fas fa-external-link-alt"></i></a></p>
+<p>其中1081和电脑代理设置里开的端口一致</p>
+</blockquote>
+<p>之后使用 <code>yarn add picgo-plugin-compress</code> 就可以成功安装了。</p>
+<p>安装之后 GUI 安装 bilibili 图床又不行了，使用 npm 安装也不行，用 yarn 安装就成功了，至于怎么关闭 yarn 的代理就有点麻烦了，和前面的 git 部分应该差不多把。</p>
+<p>看了下<a class="link"   target="_blank" rel="noopener" href="https://github.com/xlzy520/picgo-plugin-bilibili?tab=readme-ov-file" > bilibili 图床插件<i class="fas fa-external-link-alt"></i></a>的网站，提到了支持WebP格式，还可以自定义压缩，不过只是使用吧，上传的应该还是原来的格式，而且如果都要加后缀用着也太麻烦了，看了下 issue ，发现 picgo 可以自定义链接格式。以及解释了我昨天的怎么删除图床内容的疑问。</p>
+<blockquote>
+<p>存在一个B站的公共静态资源空间。<br>举例：所有人上传的图片都会放在这个空间里面，但是你不发布动态的话，那么这个资源与你就没有绑定关系，那么你自然是找不到的。你发布了的话，你的这条动态就会跟这个图片资源绑定关系，那么查看的时候，就知道这个动态绑定了哪些图片链接，就可以看到对应的图片了。</p>
+</blockquote>
+<p>还有关于使用的问题。多段，有点麻烦，直接粘贴图片。</p>
+<p><img  
+                       lazyload
+                       alt="image"
+                       data-src="https://cdn.jsdelivr.net/gh/lsfny/images/PicGo202406151326761.webp"
+                        alt="image.png"
+                 ></p>
+<p>使用 bilibili 图床，不支持 WebP，我用的 tinypng 最开始没有用 API Key 导致没成功，后来成功了，要注册账号，上传有点慢，而且最新的稳定版 picgo 有 bug 。使用 scoop 安装指定版本只要在安装命令最后加上 <code>@version</code> 就可以了，又学到了。issue 真是好东西啊，可惜之前没看过，因为大部分都是英文。</p>
+<p>bilibili 图床非得登录才能用，好麻烦啊。要不回去用 GitHub 图床吧，主要怕bilibili 倒闭了，网上天天看唱衰他的，感觉挺好用的啊。</p>
+<p>TinyPNG 一个月内使用 500 次以内免费，真好。一个月肯定用不了那么多，而且可以创多个 API Key，不知道能不能叠加 ，compress 的作者说的意思是能叠加的。</p>
+<p>还有一个保险措施就是在使用电脑的截图备份图片在本地。</p>
+<p>关于 picgo 的图片 log，我总是有强迫症，要把失败的删了，其实完全没必要吧。</p>
+<h1 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h1><p>使用自动部署的确可以上传，但是 <code>image</code> 文件夹多了好多我不需要的东西，看着不好看，我看另外的使用同一个主题的博客就没有，而且也是用的自动部署，我的还是照着他的做的呢。所以也不应该存在自己修改了 node 代码的原因吧。突然想到一个好办法，加他微信然后问一下。</p>
+<p>本地也是没有问题的，所以我想着下下来看看是不是哪编译得不一样。我搜的比对文件夹，结果全是比对文件。</p>
+<p>有一个靠谱点的文章，说使用 <code>rebocopy</code> 命令可以比对。还有个开源软件 <code>WinMerge</code> ，用 scoop 下载失败就不想下了。</p>
+<p>使用 <code>🪟 + R </code> 然后 <code>cmd</code> 接着用 <code>Ctrl + Shift + Enter</code> 可以使用管理员权限打开命令行，又学到了。</p>
+
+                </div>
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E5%9B%BE%E5%BA%8A/">图床</a>
+                                    </li>
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/Obsidian/">Obsidian</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/blog/%E5%B0%86CapsLock%E9%94%AE%E5%9C%A8%E5%8D%95%E5%87%BB%E5%92%8C%E9%95%BF%E6%8C%89%E6%97%B6%E5%88%86%E5%88%AB%E6%98%A0%E5%B0%84%E4%B8%BAEsc%E5%92%8CCtrl/"
+                                   title="将CapsLock键在单击和长按时分别映射为Esc和Ctrl"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">将CapsLock键在单击和长按时分别映射为Esc和Ctrl</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/blog/git%E8%AF%AD%E6%B3%95/"
+                                   title="git语法"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">git语法</span>
+                                        <span class="post-nav-item">下一篇</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        <div class="comment-plugin-fail border-box">
+    <span class="fail-tip">评论插件加载失败</span>
+    <button class="reload keep-button">点击重新加载</button>
+</div>
+<div class="comment-plugin-loading flex-center border-box">
+    <i class="loading-icon fa-solid fa-spinner fa-spin"></i>
+    <span class="load-tip">正在加载评论插件</span>
+</div>
+<script data-pjax>
+  window.KeepCommentPlugin = {}
+  window.KeepCommentPlugin.hideLoading = () => {
+    const cplDom = document.querySelector('.comments-container .comment-plugin-loading')
+    cplDom.style.display = 'none'
+  }
+  window.KeepCommentPlugin.loadFailHandle = () => {
+    window.KeepCommentPlugin.hideLoading()
+    const cpfDom = document.querySelector('.comments-container .comment-plugin-fail')
+    cpfDom.style.display = 'flex'
+    cpfDom.querySelector('.reload').addEventListener('click', () => {
+      window.location.reload()
+    })
+  }
+</script>
+
+        
+            
+
+    <div class="valine-container">
+        <div id="vcomments"></div>
+        <script data-pjax
+                src="//unpkg.com/valine@latest/dist/Valine.min.js"
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        ></script>
+        <script data-pjax
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        >
+          window.KeepCommentPlugin.initValine = () => {
+            const config = {
+              el: '#vcomments',
+              appId: 'lVkX9tbYT33AmGss4JR38m8Y-MdYXbMMI',
+              appKey: 'gkDQ8OllDyjXQ2qpYqGtTtCO',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '',
+              lang: 'zh-CN'.toLowerCase()
+            }
+
+            if ('') {
+              config.serverURLs = ''
+            }
+
+            if (window?.Valine) {
+              new Valine(config)
+              window.KeepCommentPlugin.hideLoading()
+            } else {
+              setTimeout(() => {
+                window.KeepCommentPlugin.initValine()
+              }, 1000)
+            }
+          }
+
+          if ('true' === 'true') {
+            setTimeout(() => {
+              window.KeepCommentPlugin.initValine()
+            }, 1200)
+          } else {
+            window.addEventListener('DOMContentLoaded', window.KeepCommentPlugin.initValine)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <!-- use hexo-blog-encrypt -->
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Obsidian"><span class="nav-text">Obsidian</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo"><span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git"><span class="nav-text">git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#picgo"><span class="nav-text">picgo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Windows"><span class="nav-text">Windows</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+        &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2024
+        
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">lsfny</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+
+    
+        <div class="count-info info-item">
+            
+                <span class="count-item border-box word">
+                    <span class="item-type border-box">总字数</span>
+                    <span class="item-value border-box word">8.2k</span>
+                </span>
+            
+
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+            <li class="tools-item go-to-comments-tablet flex-center">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <!-- use hexo-blog-encrypt -->
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Obsidian"><span class="nav-text">Obsidian</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo"><span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git"><span class="nav-text">git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#picgo"><span class="nav-text">picgo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Windows"><span class="nav-text">Windows</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+<!-- common -->
+<script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/utils.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/header-shrink.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/back2top.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/toggle-theme.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/code-block.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/main.js"></script><script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/libs/anime.min.js"></script>
+
+<!-- local-search -->
+
+    <script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/local-search.js"></script>
+
+
+<!-- lazyload -->
+
+    <script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/lazyload.js"></script>
+
+
+<div class="pjax">
+    
+        <!-- post-helper -->
+        <script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/post/post-helper.js"></script>
+
+        <!-- toc -->
+        
+            <script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/post/toc.js"></script>
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+    <script src="//unpkg.com/hexo-theme-keep@4.1.3/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+    
+        
+    
+
+</body>
+</html>
